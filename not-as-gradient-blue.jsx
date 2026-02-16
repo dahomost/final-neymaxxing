@@ -145,9 +145,7 @@ function WelcomeScreen({ setScreen }) {
               <line x1="8"  y1="16" x2="36" y2="50" stroke="#93c5fd" strokeWidth="3"   strokeOpacity="0.85" strokeLinecap="round"/>
               <line x1="36" y1="50" x2="36" y2="16" stroke="#93c5fd" strokeWidth="3"   strokeOpacity="0.85" strokeLinecap="round"/>
 
-              {/* ── MEDIUM NODES ── */}
-              <circle cx="22" cy="16" r="2.5" fill="#60a5fa" fillOpacity="0.7"/>
-              <circle cx="22" cy="50" r="2.5" fill="#60a5fa" fillOpacity="0.7"/>
+              {/* Medium nodes: center top/bottom removed per request */}
               <circle cx="0"  cy="33" r="2.5" fill="#93c5fd" fillOpacity="0.5"/>
               <circle cx="46" cy="33" r="2.5" fill="#93c5fd" fillOpacity="0.5"/>
 

@@ -93,11 +93,7 @@ function WelcomeScreen({ setScreen }) {
               <line x1="8"  y1="50" x2="8"  y2="16" stroke="#93c5fd" strokeWidth="2.2" strokeOpacity="0.75" strokeLinecap="round"/>
               <line x1="8"  y1="16" x2="46" y2="50" stroke="#93c5fd" strokeWidth="2.2" strokeOpacity="0.75" strokeLinecap="round"/>
               <line x1="46" y1="50" x2="46" y2="16" stroke="#93c5fd" strokeWidth="2.2" strokeOpacity="0.75" strokeLinecap="round"/>
-              {/* Nodes */}
-              <circle cx="8"  cy="50" r="4"   fill="#93c5fd" fillOpacity="0.9"/>
-              <circle cx="8"  cy="16" r="4"   fill="#93c5fd" fillOpacity="0.9"/>
-              <circle cx="46" cy="50" r="4"   fill="#93c5fd" fillOpacity="0.9"/>
-              <circle cx="46" cy="16" r="4"   fill="none" stroke="white" strokeWidth="1.8" strokeOpacity="0.9"/>
+              {/* Nodes removed per request */}
               {/* Mid-diagonal node */}
               <circle cx="27" cy="33" r="3"   fill="#60a5fa" fillOpacity="0.8"/>
             </svg>
@@ -206,19 +202,11 @@ function WelcomeScreen({ setScreen }) {
               <circle cx="20" cy="19" r="2.1" fill="#93c5fd" fillOpacity="0.72" filter="url(#softglow)"><animate attributeName="r" values="2.1;3.2;2.1" dur="3.2s" begin="0.5s" repeatCount="indefinite"/></circle>
               <circle cx="79" cy="16" r="1.9" fill="#bfdbfe" fillOpacity="0.68" filter="url(#softglow)"><animate attributeName="r" values="1.9;3;1.9" dur="2.8s" begin="1.3s" repeatCount="indefinite"/></circle>
               <circle cx="91" cy="40" r="2"   fill="#93c5fd" fillOpacity="0.68" filter="url(#softglow)"><animate attributeName="r" values="2;3.1;2" dur="3.5s" begin="0.2s" repeatCount="indefinite"/></circle>
-              <circle cx="62" cy="88" r="1.9" fill="#bfdbfe" fillOpacity="0.65" filter="url(#softglow)"><animate attributeName="r" values="1.9;3;1.9" dur="3.9s" begin="1.8s" repeatCount="indefinite"/></circle>
-              <circle cx="18" cy="82" r="1.8" fill="#93c5fd" fillOpacity="0.62" filter="url(#softglow)"><animate attributeName="r" values="1.8;2.9;1.8" dur="3.6s" begin="0.9s" repeatCount="indefinite"/></circle>
               <circle cx="8"  cy="50" r="1.8" fill="#bfdbfe" fillOpacity="0.6"  filter="url(#softglow)"><animate attributeName="r" values="1.8;2.8;1.8" dur="4.1s" begin="0.3s" repeatCount="indefinite"/></circle>
 
-              {/* SMALL — tiny scattered dots */}
+              {/* SMALL — reduced scattered dots */}
               <circle cx="55" cy="22" r="1.2" fill="#93c5fd" fillOpacity="0.55"><animate attributeName="r" values="1.2;2;1.2" dur="3.4s" begin="1.1s" repeatCount="indefinite"/></circle>
-              <circle cx="24" cy="44" r="1.1" fill="#bfdbfe" fillOpacity="0.5"><animate attributeName="r" values="1.1;1.9;1.1" dur="4s" begin="0.7s" repeatCount="indefinite"/></circle>
               <circle cx="76" cy="66" r="1.2" fill="#93c5fd" fillOpacity="0.5"><animate attributeName="r" values="1.2;2;1.2" dur="3.7s" begin="1.6s" repeatCount="indefinite"/></circle>
-              <circle cx="40" cy="80" r="1" fill="#bfdbfe" fillOpacity="0.45"><animate attributeName="r" values="1;1.7;1" dur="4.4s" begin="2.1s" repeatCount="indefinite"/></circle>
-              <circle cx="83" cy="26" r="1" fill="#93c5fd" fillOpacity="0.45"><animate attributeName="r" values="1;1.7;1" dur="3.9s" begin="0.4s" repeatCount="indefinite"/></circle>
-              <circle cx="12" cy="66" r="0.9" fill="#bfdbfe" fillOpacity="0.4"><animate attributeName="r" values="0.9;1.5;0.9" dur="4.8s" begin="1.4s" repeatCount="indefinite"/></circle>
-              <circle cx="68" cy="80" r="0.9" fill="#93c5fd" fillOpacity="0.38"><animate attributeName="r" values="0.9;1.5;0.9" dur="5s" begin="2.3s" repeatCount="indefinite"/></circle>
-              <circle cx="86" cy="58" r="0.8" fill="#bfdbfe" fillOpacity="0.35"><animate attributeName="r" values="0.8;1.4;0.8" dur="4.6s" begin="0.6s" repeatCount="indefinite"/></circle>
             </svg>
             <p className="text-white/80 text-sm" style={{maxWidth: '300px', margin: '0 auto'}}>
             AI-powered networking that connects you with investors, VCs, and co-founders
